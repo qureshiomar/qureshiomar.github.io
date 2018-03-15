@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Main CSS File-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Omar Qureshi's Portfolio</title>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Omar Qureshi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" data-toggle="tooltip" data-placement="bottom" title="Unavailable" href="#"> <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <center>
+                <img id="profilePicture" src="assets/pictures/me1.jpg">
+                <h1 class="display-4">Omar Qureshi</h1>
+                <p class="lead">a first-year student at ocadu studying digital futures</p>
+                <hr class="my-4">
+                <a href="https://www.facebook.com/omarqureshi786" class="icon" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fab fa-facebook fa-3x" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/omar-qureshi-3265b5154/" class="icon" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/omarqureshi_" class="icon" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                <a href="https://github.com/qureshiomar" class="icon" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fab fa-github-square fa-3x" aria-hidden="true"></i></a>
+                <a href="https://drive.google.com/open?id=1BzPhq9H6_WyFWD0HlLFMtnHrVPTUJ_xN" class="icon" data-toggle="tooltip" data-placement="bottom" title="Résumé/CV"><i class="fas fa-file-pdf fa-3x" aria-hidden="true"></i></a>
+                <a href="#" class="icon"  id="email" data-toggle="tooltip" data-placement="bottom" title="Email"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+            </center>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Email Address</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <!--<p>Modal body text goes here.</p>-->
+                    <div class="input-group mb-3">
+                        <input id="emailTxt" type="text" class="form-control" value="omarqureshi687@gmail.com" aria-label="omarqureshi687@gmail.com" aria-describedby="basic-addon2" readonly>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" id="CTC" type="button">Copy to Clipboard</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JQuery, Popper.js, Bootstrap.js, FontAwesome, SweetAlert-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

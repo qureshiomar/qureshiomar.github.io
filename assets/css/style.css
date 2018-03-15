@@ -1,0 +1,65 @@
+a {
+  color: inherit;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+}
+
+#profilePicture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.icon {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fa-facebook{
+  transition: 0.3s ease-in-out;
+}
+.fa-facebook:hover {
+  color: #3E579B;
+}
+
+.fa-linkedin{
+  transition: 0.3s ease-in-out
+}
+.fa-linkedin:hover {
+  color: #1274B1;
+}
+
+.fa-twitter-square{
+  transition: 0.3s ease-in-out
+}
+.fa-twitter-square:hover {
+  color: #3DB9FC;
+}
+
+.fa-github-square{
+  transition: 0.3s ease-in-out;
+}
+.fa-github-square:hover {
+  color: white;
+}
+
+.fa-file-pdf{
+  transition: 0.3s ease-in-out;
+}
+.fa-file-pdf:hover{
+  color:#D00017;
+}
+
+.fa-envelope{
+  transition: 0.3s ease-in-out;
+}
+.fa-envelope:hover {
+  color: white;
+}
